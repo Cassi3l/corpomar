@@ -1,0 +1,242 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+html, body {
+  color: #5a5a5a;
+}
+
+.img-center {
+  margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.grafico-contacto{
+  padding: 0;
+}
+
+.foto-contacto{
+  padding: 0 !important;
+}
+
+.foto-contacto1{
+  position: relative;
+  height: 380px;
+  z-index: 0;
+  top: 0;
+}
+
+#formulario{
+  position: absolute;
+  width: 40%;
+  z-index: 30;
+  top: 0;
+  padding: 10px 0 0 10px;
+}
+
+.form-corpomar{
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  border-radius: 0;
+}
+
+
+
+.nombre, .email, .asunto, .mensaje{
+  font-size: 15px;
+  font-family: 'Oswald', sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.nombre{
+  margin-bottom: 7px !important;
+}
+
+.campos{
+  font-size: 12px;
+  font-family: 'Oswald', sans-serif;
+  color: #fff;
+}
+
+.btn-corpomar{
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  border-radius: 0;
+}
+
+.link-contacto{
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.link-contacto a{
+  color: #fff;
+  text-decoration: none;;
+}
+
+.contacto{
+  height: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+
+.link-contacto a:hover {
+  color: aqua;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media queries */
+
+@media (min-width: 320px) and (max-width: 768px) {
+
+  
+
+
+
+
+
+
+
+
+
+
+
+  }
+
+  @media (max-width: 320px) {
+  .foto-contacto1{
+    display: none;
+    }
+
+    #formulario{
+      width: 100%;
+      background-color: #283b8e;
+      padding: 15px 0 15px 5px;
+    }
+    .nombre, .email, .asunto, .mensaje{
+      font-size: 12px;
+    }
+
+    .btn-corpomar{
+      font-size: 12px;
+    }
+
+    .form-corpomar{
+    background-color: #fff;
+  
+}
+
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .flex-container {
+    width: 100% !important;
+  }
+  
+}
+
+
+
+/***** Formulario angular *****/
+
+.hidden {
+    display: none;
+}
+.vertical-middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+.panel, .panel-default {
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+}
+.message {
+    padding: 15px; 
+    margin: 0;
+}
+
+
+.panel-sp{
+  padding: 0 !important;
+}
+
+.boton-envio{
+  margin-bottom: 10px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

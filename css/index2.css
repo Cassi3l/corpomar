@@ -1,0 +1,844 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+html, body{
+  color: #5a5a5a;
+}
+
+.img-center{
+  margin: 0 auto;
+}
+
+.contenedor-azul{
+  background-color:#ecf5fa;
+}
+
+
+/*  */
+.navbar-brand,
+.navbar-nav li a{
+  line-height: 80px;
+  height: 80px;
+  padding-top: 0;
+}
+
+.links-menu{
+  color: #fff;
+  letter-spacing: 0.5px;
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus{
+  background-color: transparent;
+  color: #32cddb;
+}
+
+.icon-bar-corpomar{
+  background-color: #ffffff;
+}
+
+.navbar-toggle.collapsed{
+  border-color: #fff;
+}
+
+.navbar-toggle{
+  border-color: #fff;
+}
+
+.navbar-toggle:focus,
+.navbar-toggle:hover{
+  border-color: #32cddb;
+}
+
+.fondo-menu{
+  background:rgba(0,0,0,0.7) !important;
+}
+
+.menu-corpomar{
+  font-size: 15px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: bold;
+}
+
+.logo{
+  padding-top: 15px;
+}
+
+.pais{
+  font-size: 26px;
+  font-family: 'Crimson Text', serif;
+  margin: 0;
+}
+
+.lugar{
+  font-size: 65px;
+  font-family: 'Oswald', sans-serif;
+  margin: 0 0 15px 0;
+}
+
+.descripcion{
+  font-size: 22px;
+  line-height: 26px;
+  font-family: 'Crimson Text', serif;
+  margin: 0;
+}
+
+
+/*  */
+.navieras{
+  padding: 50px 0 50px 0;
+}
+
+.destinos{
+  padding: 50px 0 0 0;
+}
+
+.somos{
+  padding: 50px 0 50px 0;
+  background-color:#ecf5fa;
+}
+
+.titulo{
+  font-size: 45px;
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  font-weight: normal;
+  letter-spacing: 5px;
+  margin: 0 0 20px 0;
+}
+
+.titulo-navieras{
+  font-size: 45px;
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  font-weight: normal;
+  letter-spacing: 5px;
+  margin: 20px 0 20px 0;
+}
+
+.texto{
+  font-size: 17px;
+  line-height: 22px;
+  font-family: 'Crimson Text', serif;
+  text-align: center;
+}
+
+
+/*  */
+.card-naviera{
+  width: 220px;
+  height: 268px;
+  box-shadow: 0 5px 7px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  margin: 0 15px 30px 15px;
+}
+
+.card-naviera:hover{
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.logo-naviera img{
+  vertical-align: middle;
+  max-height: 23px;
+  max-width: 173px;
+}
+
+
+/*  */
+.container-menu-destinos{
+  width: 690px;
+  padding-top: 20px;
+}
+
+.menu-destinos{
+  font-size: 18px;
+  font-family: 'Oswald', sans-serif;
+  border-top: 1px solid #d0d0d0;
+  border-left: 1px solid #d0d0d0;
+}
+
+.menu-destinos>li{
+  margin-bottom: 0;
+  border-right: 1px solid #d0d0d0;
+}
+
+.menu-destinos>li>a{
+  border: none;
+  color: #000;
+  margin-right: 0; 
+}
+
+.menu-destinos>li.active>a, .menu-destinos>li.active>a:focus, .menu-destinos>li.active>a:hover{
+  color: #fff;
+  cursor: default;
+  background-color: #429ecc;
+  border-bottom-color: transparent;
+  border: none;
+  border-radius: 0;
+}
+
+.destinos-centrado{
+  height: 420px;
+  position: relative;
+}
+
+.lista-paises{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+.pais-destino{
+  font-size: 24px;
+  line-height: 50px;
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  border-bottom: 2px #2a388f dashed;
+}
+
+.contenido-paises{
+  margin-top: 30px;
+}
+
+
+/*  */
+.grafico-contacto{
+  padding: 0;
+}
+
+.foto-contacto{
+  padding: 0;
+}
+
+.foto-contacto1{
+  position: relative;
+  height: 380px;
+  z-index: 0;
+  top: 0;
+}
+
+#formulario{
+  position: absolute;
+  width: 40%;
+  z-index: 30;
+  top: 0;
+  padding: 15px 0 0 5px;
+}
+
+.form-corpomar{
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  border-radius: 0;
+}
+
+
+
+.nombre, .email, .asunto, .mensaje{
+  font-size: 15px;
+  font-family: 'Oswald', sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.campos{
+  font-size: 12px;
+  font-family: 'Oswald', sans-serif;
+  color: #fff;
+  margin-top: 5px;
+}
+
+.btn-corpomar{
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  border-radius: 0;
+}
+
+.link-contacto{
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.link-contacto a{
+  color: #fff;
+  text-decoration: none;;
+}
+
+.contacto{
+  height: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+
+.link-contacto a:hover{
+  color: aqua;
+}
+
+
+/*  */
+#map{
+  background-color: #ebebeb;
+  width: 100%;
+  height: 400px;
+}
+
+
+/*  */
+.corpomar{
+  font-size: 15px;
+  font-family: 'Oswald', sans-serif;
+  color: #fff;
+  text-align: center;
+  letter-spacing: 0.5px;
+  margin: 10px 0 40px 0;
+}
+
+.suscribete{
+  font-size: 16px;
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  color: #fff;
+  letter-spacing: 0.5px;
+  margin-bottom: 20px;
+}
+
+.redes-sociales{
+  text-align: center;
+  margin-top: 40px;
+}
+
+.icono-redes{
+  margin-right: 20px;
+}
+
+.menu-corpomar2{
+  font-size: 14px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.aviso{
+  font-size: 15px;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 0.5px;
+  text-align:center;
+  margin-top:30px;
+}
+
+.aviso a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.aviso a:hover{
+    color: #aef2b3;
+}
+
+
+/*  */
+.full-screen{
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+/*   */
+.flex-container{
+  margin: 0 auto !important;
+  padding-top: 20px;
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+  width: 65%;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrap{ 
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.foto-destino{
+  padding: 0 !important;
+}
+
+
+
+.news-corpomar{
+  padding: 35px 0 35px 0;
+}
+
+.navbar-992{
+  margin-right: 0;
+}
+
+
+
+
+
+/* Media queries */
+
+@media (min-width: 1444px) and (max-width: 1570px){
+  .flex-container{
+    width: 70%;
+  }
+}
+
+@media (min-width: 1265px) and (max-width: 1443px){
+  .flex-container{
+    width: 80%;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1180px){
+  .flex-container{
+    width: 80%;
+  }
+}
+
+@media (min-width: 850px) and (max-width: 1023px){
+  .flex-container{
+    width: 90%;
+  }
+}
+
+@media (min-width: 571px) and (max-width: 849px){
+  .flex-container{
+    width: 90%;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 570px){
+  .flex-container{
+    width: 100%;
+  }
+
+  .card-naviera{
+    width:140px;
+    height: 170px;
+    margin: 0 5px 10px 5px;
+  }
+
+  .nodisplay-paises{
+    display: none !important;
+  }
+
+  .fluid-destinos{
+    padding: 0;
+  }
+
+  .somos{
+    padding: 25px 5px 25px 5px !important;
+  }
+
+  .navieras{
+    padding: 25px 0 25px 0 !important;
+  }
+
+  .destinos{
+    padding: 25px 0 0 0 !important;
+  }
+
+  .pais{
+    font-size: 20px;
+  }
+
+  .lugar{
+    font-size: 45px;
+    margin: 0 0 15px 0;
+  }
+
+  .descripcion{
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+  .titulo{
+    font-size: 35px;
+    margin: 0 0 15px 0;
+  }
+
+  .titulo-navieras{
+    font-size: 35px;
+    margin: 15px 0 15px 0;
+  }
+
+  .texto-navieras{
+    margin: 0 !important;
+    padding: 0 !important; 
+  }
+
+  .menu-destinos{
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .container-menu-destinos{
+    width: 100%;
+    padding-top: 20px;
+  }
+
+  .tab-100{
+    width: 100%;
+    border-bottom: 1px solid #d0d0d0;
+  }
+
+  .contenido-paises{
+    margin-top: 25px;
+  }
+
+  .corpomar{
+    font-size: 13px;
+    margin-bottom: 25px;
+  }
+
+  .suscribete{
+    font-size: 13px;
+  }
+
+  .redes-sociales{
+    margin-top: 20px;
+  }
+
+  .aviso{
+    font-size: 13px;
+  }
+
+  .boton-news{
+    width: 250px;
+    height: 31px;
+  }
+
+  .navbar-nav li a{
+    line-height: 50px;
+    height: 50px;
+  }
+
+  .menu-destinos-tab{
+    width: 100%;
+    border-bottom: 1px solid #d0d0d0;
+  }
+
+  .grafico-contacto{
+    display: none;
+  }
+
+  .foto-contacto1 img{
+    max-width:190%;
+    max-height:190%;
+    margin: 0 0 -300px -320px;
+  }
+
+  #map{
+    height: 300px;
+  }
+
+  .contacto{
+    height: 100px;
+  }
+}
+
+  @media (max-width: 320px){
+  .flex-container{
+    width: 100%;
+  }
+
+  .card-naviera{
+    width:140px;
+    height: 170px;
+    margin: 0 5px 10px 5px;
+  }
+
+  .foto-contacto1{
+    display: none;
+    }
+
+  #formulario{
+    width: 100%;
+    background-color: #283b8e;
+    padding: 15px 0 15px 5px;
+  }
+
+  .nombre, .email, .asunto, .mensaje{
+    font-size: 12px;
+  }
+
+  .btn-corpomar{
+    font-size: 12px;
+  }
+
+  .form-corpomar{
+    background-color: #fff;
+  }
+
+  #map{
+    height: 250px;
+  }
+
+  .link-contacto{
+    font-size: 20px;
+  }
+
+  .contacto{
+     height: 50px;
+  }
+}
+ 
+/*
+  .card-naviera{
+    width:140px;
+    height: 170px;
+    margin: 0 5px 10px 5px;
+  }
+
+  .nodisplay-paises{
+    display: none !important;
+  }
+
+  .fluid-destinos{
+    padding: 0;
+  }
+
+  .somos{
+    padding: 25px 5px 25px 5px !important;
+  }
+
+  .navieras{
+    padding: 25px 0 25px 0 !important;
+  }
+
+  .destinos{
+    padding: 25px 0 0 0 !important;
+  }
+
+  .pais{
+    font-size: 20px;
+  }
+
+  .lugar{
+    font-size: 45px;
+    margin: 0 0 15px 0;
+  }
+
+  .descripcion{
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+  .titulo{
+    font-size: 35px;
+    margin: 0 0 15px 0;
+  }
+
+  .titulo-navieras{
+    font-size: 35px;
+    margin: 15px 0 15px 0;
+  }
+
+  .texto-navieras{
+    margin: 0 !important;
+    padding: 0 !important; 
+  }
+
+  .menu-destinos{
+  font-size: 15px;
+  text-align: center;
+
+}
+
+.container-menu-destinos{
+  width: 100%;
+  padding-top: 20px;
+}
+
+.tab-100{
+  width: 100%;
+  border-bottom: 1px solid #d0d0d0;
+}
+
+.contenido-paises{
+  margin-top: 25px;
+}
+
+.corpomar{
+    font-size: 13px;
+    margin-bottom: 25px;
+  }
+
+  .suscribete{
+    font-size: 13px;
+  }
+
+  .redes-sociales{
+    margin-top: 20px;
+  }
+
+  .aviso{
+    font-size: 13px;
+  }
+
+  .boton-news{
+    width: 250px;
+    height: 31px;
+
+  }
+
+.navbar-nav li a{
+  line-height: 50px;
+  height: 50px;
+}
+
+.menu-destinos-tab{
+  width: 100%;
+  border-bottom: 1px solid #d0d0d0;
+}
+
+.grafico-contacto{
+  display: none;
+}
+
+.foto-contacto1 img{
+  max-width:190%;
+  max-height:190%;
+  margin: 0 0 -300px -320px;
+}
+
+    #map{
+      height: 300px;
+    }
+
+
+    .contacto{
+      height: 100px;
+    }
+  }
+
+*/
+  
+
+
+
+
+
+
+
+
+
+
+
+/***** Media queries ****
+
+
+320 > 767
+
+768 > 991
+
+992 > 1200
+
+
+
+
+@media (min-width: 992px) and (max-width: 1199px){
+  .flex-container{
+  width: 80%;
+}
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+   .flex-container{
+  width: 96%;
+}
+
+.card-naviera{
+  margin: 0 5px 10px 5px;
+}
+
+.nodisplay-paises{
+  display: none !important;
+}
+
+
+
+
+}
+
+@media (max-width: 767px){
+  .pais{
+    font-size: 1.625em;
+  }
+
+  .lugar{
+    font-size: 4.0625em;
+    margin: 0 0 15px 0;
+  }
+
+  .descripcion{
+    font-size: 1.375em;
+    line-height: 1.2em;
+  }
+
+
+
+
+
+  .titulo{
+    font-size: 2.8125em;
+    letter-spacing: 5px;
+  }
+
+  .titulo-navieras{
+    font-size: 2.8125em;
+    letter-spacing: 5px;
+  }
+
+  .texto{
+    font-size: 1.0625em;
+    line-height: 1.375em;
+  }
+
+
+
+.card-naviera{
+  width: 13.75em;
+  height: 16.75em;
+  margin: 0 5px 10px 5px;
+}
+
+.nodisplay-paises{
+  display: none !important;
+}
+
+.fluid-destinos{
+  padding-right: 0;
+}
+  
+
+}
+
+
+*/
+
+
+
+
+
+
+
+
+
+

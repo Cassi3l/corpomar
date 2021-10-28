@@ -1,0 +1,58 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.fondo{
+	height: 100%;
+	background-image: url("http://corpomar.com.mx/img/background.jpg");
+	background-position: center center;
+	background-size: cover;
+}
+
+.papel-no{
+	box-shadow: 3px 0 30px black;
+	height: 955px;
+	background-image: url("http://corpomar.com.mx/img/fondo_papel.jpg");
+}
+
+.papel{
+	box-shadow: 3px 0 30px black;
+	width: 420px;
+	height: 420px;
+	background-color: aqua;
+;}
+
+.no-padding{
+  padding-left:0;
+  padding-right:0;
+}
+
+.img-center {
+	margin:0 auto;
+}
+
+.titulo{
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 30px;
+	font-family: 'Libre Baskerville', serif;
+	margin: 5px 0 15px 0;
+}
+
+.copy{
+	font-size: 16px;
+	text-align: center;
+	line-height: 19px;
+	font-family: 'Work Sans', sans-serif;
+	margin-bottom: 10px;
+}
+
+.copy-cta{
+	font-size: 16px;
+	text-align: center;
+	font-weight: bold;
+	line-height: 19px;
+	font-family: 'Work Sans', sans-serif;
+}

@@ -1,0 +1,45 @@
+@media (max-width: 320px){
+  .flex-container{
+    width: 100%;
+  }
+
+  .card-naviera{
+    width:140px;
+    height: 170px;
+    margin: 0 5px 10px 5px;
+  }
+
+  .foto-contacto1{
+    display: none;
+    }
+
+  #formulario{
+    width: 100%;
+    background-color: #283b8e;
+    padding: 15px 0 15px 5px;
+  }
+
+  .nombre, .email, .asunto, .mensaje{
+    font-size: 12px;
+  }
+
+  .btn-corpomar{
+    font-size: 12px;
+  }
+
+  .form-corpomar{
+    background-color: #fff;
+  }
+
+  #map{
+    height: 250px;
+  }
+
+  .link-contacto{
+    font-size: 20px;
+  }
+
+  .contacto{
+     height: 50px;
+  }
+}
